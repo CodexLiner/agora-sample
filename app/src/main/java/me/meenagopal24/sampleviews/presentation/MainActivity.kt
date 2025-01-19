@@ -1,14 +1,11 @@
 package me.meenagopal24.sampleviews.presentation
 
-import android.animation.ObjectAnimator
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.View
-import android.widget.FrameLayout
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
@@ -23,8 +20,8 @@ private const val PERMISSION_REQ_ID_RECORD_AUDIO = 22
 private const val PERMISSION_REQ_ID_CAMERA = PERMISSION_REQ_ID_RECORD_AUDIO + 1
 
 private const val APP_ID = "383a933cb1fd4243ae96617c70ab8d32"
-private const val TOKEN =
-    "007eJxTYLj/SG5dZLCLytnfynmn0qK3Ja395+qWwb0jPPb23j9bZA4rMBhbGCdaGhsnJxmmpZgYmRgnplqamRmaJ5sbJCZZpBgbTV3Uk94QyMhwdvEmVkYGCATxuRlKUotLnDMS8/JScxgYALGlJCM="
+
+private const val TOKEN = "007eJxTYLj/SG5dZLCLytnfynmn0qK3Ja395+qWwb0jPPb23j9bZA4rMBhbGCdaGhsnJxmmpZgYmRgnplqamRmaJ5sbJCZZpBgbTV3Uk94QyMhwdvEmVkYGCATxuRlKUotLnDMS8/JScxgYALGlJCM="
 
 
 private var mRtcEngine: RtcEngine? = null
