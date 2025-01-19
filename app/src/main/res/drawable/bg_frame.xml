@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black" /> <!-- Replace with your desired background color -->
+            <corners android:radius="16dp" /> <!-- Optional: Rounded corners -->
+        </shape>
+    </item>
+
+    <!-- Icon Layer -->
+    <item>
+        <bitmap
+            android:tint="@color/green"
+            android:gravity="center"
+            android:src="@drawable/ic_person" />
+    </item>
+
+</layer-list>
